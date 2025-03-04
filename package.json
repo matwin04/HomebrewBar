@@ -1,0 +1,16 @@
+{
+  "name": "homebrewbar",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "author": "Jane Doe",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "electron": "^35.0.0"
+  }
+}

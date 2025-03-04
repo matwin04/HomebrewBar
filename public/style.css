@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #181818;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+}
+/* Form and Table */
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1rem;
+    color: #aaaaaa;
+}
+
+form {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="text"] {
+    background: #222;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+button {
+    background: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #666;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+/* Header Row */
+thead th {
+    background: #333;
+    color: #fff;
+}
+
+/* Formulae Row Styling */
+tbody tr.formula-row {
+    background: rgba(52, 152, 219, 0.2); /* Light Blue Tint */
+}
+
+tbody tr.formula-row:hover {
+    background: rgba(52, 152, 219, 0.4); /* Slightly Darker Blue on Hover */
+}
+
+/* Cask Row Styling */
+tbody tr.cask-row {
+    background: rgba(231, 76, 60, 0.2); /* Light Red Tint */
+}
+
+tbody tr.cask-row:hover {
+    background: rgba(231, 76, 60, 0.4); /* Slightly Darker Red on Hover */
+}
+
+/* Links */
+a {
+    color: #9b59b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
